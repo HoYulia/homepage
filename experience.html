@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Experience</title>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#" id="getQuote">Get quote</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="experience.html">Experience</a></li>
+                            <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <!-- My projects -->
+                <div class="projects">
+                    <h3 class="title">Projects</h3>
+                    <ul class="list">
+                        <li class="list-item"><span class="list-item-text">Scoring card (application scoring)</span></li>
+                        <li class="list-item"><span class="list-item-text">Automation of loan portfolio reporting</span></li>
+                        <li class="list-item"><span class="list-item-text">Created a predictive model of the dollar exchange rate</span></li>
+                    </ul>
+                </div>
+                <!-- My work experience -->
+                <div class="work">
+                    <h3 class="title">Work Experience</h3>
+                    <!-- Company 1 -->
+                    <div>
+                        <h4 class="work-position">Data analyst<span class="organization">JSC "Megabank"</span></h4>
+                        <p class="period">March 2019 - March 2022<span class="v-line">|</span>Ukraine</p>
+                        <ul class="list">
+                            <li class="list-item"><span class="list-item-text">Calculated of credit, market and interest types of banking risk.</span></li>
+                            <li class="list-item"><span class="list-item-text">Created predictive models of the exchange rate and validation.</span></li>
+                            <li class="list-item"><span class="list-item-text">Stress testing of all types of risk.</span></li>
+                            <li class="list-item"><span class="list-item-text">Created a scorecard.</span></li>
+                            <li class="list-item"><span class="list-item-text">Vintage analysis.</span></li>
+                        </ul>
+                    </div>
+                    <!-- Company 2 -->
+                    <div>
+                        <h4 class="work-position">Senior state auditor-inspector<span class="organization">Tax inspection of Lugansk</span></h4>
+                        <p class="period">December 2013 - December 2014<span class="v-line">|</span>Ukraine</p>
+                        <ul class="work-list">
+                            <li class="list-item"><span class="list-item-text">Conducting scheduled/ unsheduled inspection of business entities.</span></li>
+                            <li class="list-item"><span class="list-item-text">Tax control of legal entities.</span></li>
+                            <li class="list-item"><span class="list-item-text">Registration of certificates and acts to business entities based on the result inspections.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="footer mt-auto py-3 bg-dark" id="footer">
+            <div class="container"><p class="m-0 text-center text-white">Yulia Goncharova &copy; 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Modal -->
+        <div class="modal fade" id="Quote" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="QuoteText"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
